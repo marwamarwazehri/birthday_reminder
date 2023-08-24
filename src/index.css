@@ -1,0 +1,121 @@
+.birthday_container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 6rem;
+  background-color: white;
+  margin:5rem 0;
+  
+}
+
+.birthday_container-form{
+  border:3px olid black;
+  padding: 3rem;
+  margin-right:7rem;
+  
+}
+
+.birthday_container-form form{
+ display: flex;
+ flex-direction: column;
+ gap:1rem;
+
+}
+
+.birthday_container-form label{
+  font-size:1.5rem;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight:bold;
+
+}
+
+
+.birthday_container-form input{
+  height:30px;
+  border-radius: 30px;
+  width:300px;
+  border-color:#3DBCD5;
+  outline: none;
+}
+
+
+.birthday_container-form button{
+  margin-top: 2rem;
+  width: 150px;
+  height:50px;
+  margin-left: 5rem;
+  border-radius: 15px 30px 15px 15px;
+  border: none;
+  font-size: 1rem;
+  color:#3DBCD5;
+  cursor: pointer;
+  }
+
+  .birthday_container-people{
+    margin-bottom:5rem;
+    width:40%;
+    text-align: center;
+    border-radius: 15px;
+  
+    
+     background: -moz-linear-gradient(90deg, rgba(76, 175, 80, 1) 0%, rgba(61, 188, 213, 1) 0%);
+    
+   
+      background: -webkit-linear-gradient(90deg, rgba(76, 175, 80, 1) 0%, rgba(61, 188, 213, 1) 0%);
+    
+    
+      background: -o-linear-gradient(90deg, rgba(76, 175, 80, 1) 0%, rgba(61, 188, 213, 1) 0%);
+    
+      
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3DBCD5', endColorstr='#4CAF50', GradientType=0);
+    
+    
+      background: -ms-linear-gradient(90deg, rgba(76, 175, 80, 1) 0%, rgba(61, 188, 213, 1) 0%);
+    
+     
+      background: linear-gradient(90deg, rgba(76, 175, 80, 1) 0%, rgba(61, 188, 213, 1) 0%);
+  }
+
+    .birthday_container-people-button button{
+    width: 150px;
+      height: 50px;
+     border-radius: 15px 30px 15px 15px;
+      border: none;
+      font-size: 1rem;
+      color: #3DBCD5;
+      cursor: pointer;
+      margin-bottom: 2rem;
+
+  }
+
+
+  .message-delete{
+    color:red;
+    background-color: white;
+    width:20%;
+    height: 50%;
+    font-weight: bolder;
+    margin-left:15rem;
+    padding:1px;
+    margin-top: 1rem;
+}
+
+ .message-insert {
+   color:#3DBCD5;
+   background-color: white;
+   width: 20%;
+   height: 50%;
+   font-weight: bolder;
+   margin-left: 15rem;
+   padding: 1px;
+   margin-top: 1rem;
+ }
+
+
+
+
+
+
+
+
